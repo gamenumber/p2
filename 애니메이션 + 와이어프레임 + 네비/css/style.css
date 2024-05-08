@@ -39,6 +39,7 @@ header {
     width: 3600px;
     height: 300px;
     animation: slide 10s linear infinite;
+    font-size: 0;
 }
 .items {
     border: 1px solid black;
