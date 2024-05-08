@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    border: 1px solid black;
+    width: 1200px;
+}
+header {
+    border: 1px solid black;
+    width: 1200px;
+    height: 100px;
+}
+.logo {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.navi {
+    border: 1px solid black;
+    width: 600px;
+    height: 100px;
+    float: right;
+}
+.slide {
+    border: 1px solid black;
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.ani {
+    border: 1px solid black;
+    width: 3600px;
+    height: 300px;
+    animation: slide 10s linear infinite;
+}
+.items {
+    border: 1px solid black;
+    width: 1200px;
+    height: 200px;
+}
+.news {
+    border: 1px solid black;
+    width: 490px;
+    height: 200px;
+    float: left;
+}
+.banner {
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+.short {
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+footer {
+    border: 1px solid black;
+    width: 1200px;
+    height: 100px;
+}
+.f-logo {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.copy {
+    border: 1px solid black;
+    width: 790px;
+    height: 100px;
+    float: left;
+}
+.sns {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.menu {
+    list-style: none;
+}
+.menu > li {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+.menu > li > a{
+    background-color: #fff;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.menu > li:hover > a {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.sub {
+    background-color: #000;
+    display: none;
+}
+.sub > a {
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+.sub > a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+@keyframes slide {
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+    35%{margin-left: -1200px;}
+    65%{margin-left: -1200px;}
+    70%{margin-left: -2400px;}
+    95%{margin-left: -2400px;}
+    100%{margin-left: 0;}
+}
