@@ -136,3 +136,54 @@ footer {
     95%{margin-left: -2400px;}
     100%{margin-left: 0;}
 }
+
+/* 공지사항 & 갤러리 */
+
+.btn {
+    margin-top: 6px;
+}
+
+.btn > a {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    background-color: #bbb;
+    margin-right: -6px;
+    border-bottom: none;
+    margin-bottom: -1px;
+}
+
+.btn > a.act {
+    background-color: #fff;
+}
+
+.tab1 {
+    border: 1px solid #000;
+    width: 95%;
+}
+.tab1 > a {
+    display: block;
+    padding: 3px 5px; 
+    border-bottom: 1px solid #000;
+}
+
+.tab1 > a > b {
+    float: right;
+    font-weight: normal;
+}
+
+.tab2 {
+    border: 1px solid #000;
+    width: 95%;
+    text-align: center;
+    display: none;
+
+}
+.tab2 > a > img {
+    padding: 10px;
+    width: 130px;
+}
+
